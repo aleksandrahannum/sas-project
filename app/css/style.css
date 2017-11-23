@@ -64,7 +64,7 @@ header {
 #form {
   background-image: url(../img/background.png);
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   color: #fff; }
   #form .form-section-right {
     position: absolute;
@@ -91,3 +91,25 @@ header {
       #form #main-form input [type='submit']:hover {
         background-color: #fff;
         cursor: pointer; }
+
+footer {
+  background-color: #292929;
+  padding: 50px 0;
+  color: #fff; }
+  footer .phone-footer {
+    text-align: center;
+    margin-bottom: 30px; }
+    footer .phone-footer .fa {
+      background-color: #f4b939;
+      color: #000;
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      text-align: center;
+      line-height: 50px;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px; }
+  footer p {
+    text-align: center;
+    font-size: 0.8em; }
